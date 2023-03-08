@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 2</title>
+    <link rel="shortcut icon" href="./controle.png" type="image/x-icon">
+</head>
+
+<body style="background-color: rgb(65, 68, 68); color: rgb(190, 192, 194);">
+    <h1 style="text-align: center;">MEUS JOGOS FAVORITOS</h1>
+    <div>
+    <ul>
+        <li>Nintendinho
+            <ol>
+                <li>Mario Bros
+                    <ul>
+                        <li>
+                            Super Mario Bros 3
+                        </li>
+                        <li>
+                            Mario: Lost Levels
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <li>
+                Super Nintendo
+                <ol>
+                    <li>Super Mario Wold</li>
+                    <li>Donkey Kong
+                        <ul>
+                            <li>Donkey Kong Country III</li>
+                            <li>Diddy's Kong Quest</li>
+                        </ul>
+                    </li>
+                </ol>
+            </li>
+            <li>Playstation I
+                <ol>
+                    <li>Final Fantasy
+                        <ul>
+                            <li>Final Fantasy VII</li>
+                            <li>Final Fantasy IX</li>
+                        </ul>
+                        <li>Castlevania
+                            <ul>
+                                <li>Simphony of the Night</li>
+                            </ul>
+                        </li>
+                    </li>
+                </ol>
+            </li>
+        </li>
+    </ul>
+    </div>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="./img/ffviiP.png" >
+        <source media="(max-width: 1050px)" srcset="./img/ffviiM.png" >
+        <img src="./img/ffviiG.png" alt="FFVII">
+    </picture>
+    <picture>
+        <source media="(max-width: 750px)" srcset="./img/castlevaniaP.jpg" >
+        <source media="(max-width: 1050px)" srcset="./img/castlevaniaM.jpg" >
+        <img src="./img/castlevaniaG.jpg" alt="CastlevaniaSOTN">
+    </picture>
+    <p  style="margin: 15px;">
+        Para saber mais sobre o Final Fantasy VII, <a href="https://pt.wikipedia.org/wiki/Final_Fantasy_VII" 
+        style="text-decoration-color: aqua; color: #f1a8a8; ">clique aqui</a> <br>
+
+        Para conhecer mais sobre o Castlevania Simphony of the Night, <a href="./doc/castlevaniaSobre.pdf" type="application/pdf"
+        style="text-decoration-color: aqua; color: #f1a8a8;" download="castlevaniaSOTN.pdf"> clique aqui</a>, e confira abaixo o trailer do jogo!<br>
+    </p>
+    <iframe src="https://www.youtube.com/embed/wDE34DggEw4" width="700px" height="500px" frameborder="0"></iframe>
+    <audio controls>
+        <source src="./doc/Dracula Castle.ogg" type="audio/ogg">
+        <source src="./doc/Dracula Castle.mp3" type="audio/mp3">
+    </audio>
+</body>
+
+</html>
